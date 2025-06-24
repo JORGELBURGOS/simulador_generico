@@ -1,0 +1,20 @@
+{
+    "nombre": "Nuevo Proyecto",
+    "cargaNegocio": {
+        "modo": "detallada",
+        "clientes": [],
+        "unidades": [],
+        "productos": []
+    },
+    "pestel": {
+        "factores": []
+    },
+    "porter": {
+        "fuerzas": []
+    },
+    "bcgAnsoff": {
+        "productos": []
+    },
+    "estrategias": [],
+    "simulaciones": []
+}

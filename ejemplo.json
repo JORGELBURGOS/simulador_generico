@@ -1,0 +1,72 @@
+{
+    "nombre": "Proyecto de Ejemplo",
+    "cargaNegocio": {
+        "modo": "detallada",
+        "clientes": [
+            {
+                "nombre": "Cliente A",
+                "segmento": "retail",
+                "participacion": 30,
+                "rentabilidad": 15,
+                "unidad": "unidad-0"
+            },
+            {
+                "nombre": "Cliente B",
+                "segmento": "corporativo",
+                "participacion": 70,
+                "rentabilidad": 25,
+                "unidad": "unidad-1"
+            }
+        ],
+        "unidades": [
+            {
+                "nombre": "Unidad 1",
+                "costosFijos": 10000,
+                "ventasEstimadas": 50000
+            },
+            {
+                "nombre": "Unidad 2",
+                "costosFijos": 15000,
+                "ventasEstimadas": 80000
+            }
+        ],
+        "productos": [
+            {
+                "nombre": "Producto X",
+                "unidad": "unidad-0",
+                "precio": 50,
+                "costoUnitario": 20,
+                "unidadesVendidas": 1000
+            },
+            {
+                "nombre": "Servicio Y",
+                "unidad": "unidad-1",
+                "precio": 100,
+                "costoUnitario": 60,
+                "unidadesVendidas": 500
+            }
+        ]
+    },
+    "pestel": {
+        "factores": [
+            {
+                "factor": "Estabilidad política",
+                "tipo": "P",
+                "impacto": 4,
+                "relevancia": 5,
+                "comentarios": "El país mantiene estabilidad política",
+                "estrategia": "Monitorear cambios políticos"
+            }
+        ]
+    },
+    "porter": {
+        "fuerzas": [
+            {
+                "fuerza": "Amenaza de nuevos entrantes",
+                "nivel": 3,
+                "comentario": "Barreras de entrada moderadas",
+                "estrategia": "Fortalecer lealtad de clientes"
+            }
+        ]
+    }
+}
